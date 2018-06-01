@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TRENDS_WEB]">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="Maintenance_CPALLS.CPALLS_UserLogin_RegressionTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- Maintenance_CPALLS.CPALLS_UserLogin_RegressionTest -->
+      <class name="Maintenance_CPALLS.CPALLS_UserNavigation_RegressionTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getExcel"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Maintenance_CPALLS.CPALLS_UserNavigation_RegressionTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TRENDS_WEB] -->

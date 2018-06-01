@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TRENDS_WEB" >
+<!--
+<test name ="Verifying_Maint_STAAR_Document_Count">
+	<classes>
+	    <class name = "Script.Verify_STAAR_Maint_DocScoreDetails_TS"></class>
+	    <class name ="Script.STAAR_DEMO_MaintDoc_TS"></class>
+		<class name = "Script.STAAR_MaintDoc_SANITY_TEST"></class>
+	</classes>
+</test>
+
+<test name ="Verifying_StateAccount_STAAR_Document_Count">
+     <classes>
+	    <class name = "Script.Verify_STAAR_SAcc_DocScoreDetails_Trends_TS"></class>
+	    <class name ="Script.STAAR_DEMO_SAccountDoc_TS"></class>
+		<class name = "Script.STAAR_SAccountDoc_SANITY_TEST"></class>
+	</classes>
+</test>
+       <class name="Script.SAccount_DocScoreDetails_TS_BISDTest03" /> preserve-order="true"
+       
+     <test name="Test" thread-count="2" parallel="methods">
+    <classes>
+       <class name="Script.STAAR_SAccount_SystemTest_TS" />
+       <class name ="Script.MainDoc_SANITY_TS_BISDTest03" />
+    </classes>
+  </test>  
+  
+  <test name="Test"  thread-count="2" preserve-order="true">
+    <classes>
+       <class name="Script.Latest_STAAR_Main_SystemTest_TS" />
+       <class name="Script.MainDoc_SANITY_TS_BISDTest03" />
+    </classes>
+  </test>
+  
+-->
+
+<!-- TEST FOR TPRI/TJL MODULE.. 
+  <test name="TPRI/TJL MODULE Test" thread-count="2" parallel="tests">
+    <classes>
+       <class name="TPRI_TJL.TPRITJL_UserNavigation_RegressionTest" />
+       <class name="TPRI_TJL.TPRITJL_UserLogin_RegressionTest" />
+       <class name= "TPRI_TJL.TPRITJL_Function"></class>     
+    </classes>
+  </test> 
+  -->
+  <!-- TEST FOR CPALLS MODULE.. -->
+  <test name="CPALLS MODULE Test" thread-count="2" parallel="tests">
+    <classes>
+       <class name="Maintenance_CPALLS.CPALLS_UserLogin_RegressionTest" />
+       <class name="Maintenance_CPALLS.CPALLS_UserNavigation_RegressionTest" />
+  <!-- <class name= "Maintenance_CPALLS.CPALLS_SystemTest"></class>     --> 
+    </classes>
+  </test> 
+
+
+
+</suite>
+

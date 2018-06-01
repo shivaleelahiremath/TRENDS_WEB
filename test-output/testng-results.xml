@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="436933" started-at="2017-03-23T10:50:13Z" finished-at="2017-03-23T10:57:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="436933" started-at="2017-03-23T10:50:13Z" finished-at="2017-03-23T10:57:30Z">
+      <class name="Sanity_Test.Sanity_test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Sanity_Test.Sanity_test@7c1ca8e]" name="setUp" is-config="true" duration-ms="9949" started-at="2017-03-23T16:20:13Z" finished-at="2017-03-23T16:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Sanity_Test.Sanity_test@7c1ca8e]" name="Login" duration-ms="6105" started-at="2017-03-23T16:20:23Z" finished-at="2017-03-23T16:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="sanityScenarios()[pri:0, instance:Sanity_Test.Sanity_test@7c1ca8e]" name="sanityScenarios" duration-ms="420860" started-at="2017-03-23T16:20:29Z" finished-at="2017-03-23T16:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityScenarios -->
+      </class> <!-- Sanity_Test.Sanity_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

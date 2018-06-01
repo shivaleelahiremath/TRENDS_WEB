@@ -1,0 +1,7 @@
+
+2017-03-20 17:23:57,865 - debugLog - ERROR - Document Total questions are not matching for document: 
+2017-03-20 17:23:57,866 - debugLog - ERROR - Expected on summary tab is 50 and found on remediation tab is 53
+2017-03-20 17:23:57,866 - debugLog - ERROR - question count is not matching b/w Item analysis and summary tab for document: 
+2017-03-20 17:23:57,866 - debugLog - ERROR - Expected on summary tab is 50 and found on Item analysis tab is 53
+2017-03-20 17:50:08,522 - CPALLS_WEB - ERROR - 1----------C-PALLS+ English BOY (2015-2016)-----------
+2017-03-20 17:50:59,876 - CPALLS_WEB - ERROR - 1----------C-PALLS+ English BOY (2015-2016)-----------
